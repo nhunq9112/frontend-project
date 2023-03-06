@@ -1,0 +1,149 @@
+body{
+    background-color: F9F9F9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;;
+    margin: 0;
+}
+
+.nav-top{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    background-color: ECC5FB;
+    width: 1560px;
+    height: 80px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+    top: 14px;
+    float: left;
+}
+
+#logo img{
+    width: 50px;
+}
+
+.menu{
+    padding-left: 60%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li{
+    display: block;
+    float: left;
+    font-size: 120%;
+    margin: 0 0 0 2em;
+    font-weight: 500;
+}
+
+.nav-list a{
+    text-decoration: none;
+}
+
+main{
+    padding-top: 5em;
+    padding-bottom: 5rem;
+}
+
+#title .row{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-image: url(image/background.jpg);
+    background-size: 100%;
+    text-align: center;
+}
+
+h2 em{
+    font-size: 200%;
+    font-family: 'Shrikhand', cursive;
+}
+
+#title p{
+    margin-top: 2em;
+    font-size: 170%;
+    font-weight: 700;
+}
+
+#content{
+    padding-top: 3em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#hello{
+    text-align: center;
+    margin-bottom: 7em;
+}
+
+#hello img{
+    width: 20em;
+}
+
+#hello p{
+    font-size: 120%;
+    margin-top: 2em;
+}
+
+#work h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+.work-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6em;
+}
+
+.text-1{
+    text-align: right;
+    font-size: 120%;
+}
+
+.work-1 img{
+    width: 15em;
+}
+
+.text-2{
+    text-align: left;
+    font-size: 120%;
+}
+
+#work-2{
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 120%;
+}
+
+#contact p{
+    text-align: center;
+    font-size: 180%;
+    font-weight: 800;
+    margin-top: 8rem;
+}
+
+.link{
+    padding-left: 38%;
+}
+
+.link li{
+    display: block;
+    float: left ;
+    font-size: 120%;
+    margin: 0 0 0 2em;
+}
+
+footer{
+    text-align: center;
+}
